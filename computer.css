@@ -10,9 +10,8 @@
       position: absolute;
       width: 340px;
       height: 300px;
-      top: 55%;
-      right: 5%;
-      transform: translate(-50%, -50%);
+      right: 10%;
+      top: 35%;
       background:
   
       /* Bottom Section */
@@ -147,3 +146,12 @@
         0 10px 0 var(--light-blue);
       }
     }
+
+@media screen and (max-width: 768px) {
+  
+  #computer {
+    top: 80%;
+    right: auto;
+    left: 10%;
+  }
+}
